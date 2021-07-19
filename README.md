@@ -1,1 +1,1 @@
-# mysql_hugo
+# myhugo
