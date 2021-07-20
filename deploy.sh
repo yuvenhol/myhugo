@@ -24,6 +24,8 @@ git commit -m "$msg"
 # Push source and build repos.
 git push origin main
 
+printf "posts pushed"
+
 cd ..
 
 git add .
@@ -36,3 +38,5 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push origin main
+
+printf "hugo pushed"
