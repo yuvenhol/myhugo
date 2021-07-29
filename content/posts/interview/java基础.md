@@ -4,6 +4,9 @@ date: 2021-07-28T11:48:44+08:00
 draft: false
 ---
 
+## 反射
+http://www.fanyilun.me/2015/10/29/Java%E5%8F%8D%E5%B0%84%E5%8E%9F%E7%90%86/
+
 ## 集合框架
 主要是对三个接口的实现，Set、Map、List。其中Set、List又实现了Collection
 ### HashMap
@@ -14,6 +17,8 @@ draft: false
 #### 树化阈值8的原因
 和泊松分布，连续8次hash冲突的概率极低百万分之一，空间和速度的取舍，为啥还要转为树？防止hash冲突
 ### ConcurrentHashMap
+
+
 
 ## GC
 GCRoot：被栈区、native栈、方法区
