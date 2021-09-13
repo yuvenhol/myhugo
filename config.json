@@ -1,23 +1,41 @@
 {
-    "baseURL": "https://yuvenhol.github.io",
-    "languageCode": "en-us",
-    "theme": "ananke",
-    "title": "yuvenholの日常",
-    "menu": {
-      "main": [
-        {
-          "identifier": "leetcode",
-          "name": "leetcode",
-          "url": "/posts/leetcode",
-          "pre": "\u003ci class='fa fa-heart'\u003e\u003c/i\u003e",
-          "weight": 10
-        },
-        {
-          "identifier": "daliy",
-          "name": "daliy",
-          "url": "/posts/daliy",
-          "weight": 20
-        }
-      ]
-    }
+  "baseURL": "https://yuvenhol.github.io",
+  "languageCode": "en-us",
+  "theme": "ananke",
+  "title": "yuvenholの日常",
+  "menu": {
+    "main": [
+      {
+        "identifier": "leetcode",
+        "name": "leetcode",
+        "url": "/posts/leetcode",
+        "pre": "\u003ci class='fa fa-heart'\u003e\u003c/i\u003e",
+        "weight": 10
+      },
+      {
+        "identifier": "daliy",
+        "name": "daliy",
+        "url": "/posts/daliy",
+        "weight": 20
+      },
+      {
+        "identifier": "codeLift",
+        "name": "codeLift",
+        "url": "/posts/codeLift",
+        "weight": 30
+      },
+      {
+        "identifier": "interview",
+        "name": "interview",
+        "url": "/posts/interview",
+        "weight": 40
+      },
+      {
+        "identifier": "childEducation",
+        "name": "childEducation",
+        "url": "/posts/childEducation",
+        "weight": 50
+      }
+    ]
   }
+}
